@@ -1,0 +1,119 @@
+.profile-container {
+  max-width: 600px; /* Adjust as needed */
+  margin: 0 auto;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  font-family: Arial, sans-serif; /* Use your desired font */
+}
+
+.profile-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.edit-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.edit-button img {
+  width: 24px; /* Adjust as needed */
+  height: 24px; /* Adjust as needed */
+}
+
+.profile-container {
+  max-width: 600px; /* Adjust as needed */
+  margin: 0 auto;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  font-family: Arial, sans-serif; /* Use your desired font */
+}
+
+.profile-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.edit-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.edit-button img {
+  width: 24px; /* Adjust as needed */
+  height: 24px; /* Adjust as needed */
+}
+
+.profile-form {
+  display: flex;
+  flex-direction: column;
+  /* position: absolute; */
+  margin-left: 500px;
+  background-color: white;
+  margin-top: 60px;
+  width: 450px;
+  height: 350px;
+  border-radius: 8px;
+  padding: 15px;
+}
+
+.profile-form h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.profile-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-form label {
+  margin-bottom: 0.5rem;
+}
+
+.profile-form input[type="text"],
+.profile-form input[type="email"] {
+  font-size: 1rem;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  padding: 10px 15px;
+  margin-right: 10px; /* For horizontal spacing between buttons */
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px; /* Space between the last input and the button */
+}
+
+button:hover {
+  opacity: 0.9; /* Slight visual feedback on hover */
+}
+
+/* Optionally, you could add specific styles for the save and cancel buttons */
+.save-button {
+  background-color: #4caf50; /* Green */
+  color: white;
+}
+
+.cancel-button {
+  background-color: #f44336; /* Red */
+  color: white;
+}
+
+.password-update-form {
+  align-items: center;
+}

@@ -1,0 +1,403 @@
+.general {
+  width: 1200px;
+  display: flex;
+  background: #f7f7f7;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.updatePasswordGeneral {
+  width: 600px;
+  display: flex;
+  background: #f7f7f7;
+  /* padding: 40px; */
+  border-radius: 8px;
+  /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+  height: 480px;
+}
+
+.nav1 button {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-wrap: wrap;
+}
+
+.nav1 button p {
+  text-wrap: wrap;
+}
+
+.nav2 button {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-left: 5px;
+}
+
+.general nav .nav1 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  text-wrap: nowrap;
+  align-self: start;
+  place-content: space-between;
+  display: inline-block;
+  vertical-align: middle;
+}
+.general .nav {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  align-self: start;
+  align-items: flex-start;
+  align-self: space-between;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 10 0%;
+  display: inline-block;
+}
+
+.general nav .nav2 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-self: start;
+  gap: 100px;
+  justify-content: space-between;
+}
+
+.personal-info-container {
+  width: 100%;
+  margin-left: 50px;
+}
+
+.personal-info-header {
+  text-align: left;
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 30px;
+  margin: 0;
+  margin-bottom: 20px;
+  text-wrap: nowrap;
+}
+
+.info-box {
+  display: flex;
+  /* justify-content: space-between; */
+  gap: 100px;
+  align-items: center;
+  width: 100%;
+  border-bottom: solid 2px #acacac;
+  padding: 12px 0;
+}
+
+.info-label {
+  font-weight: bold;
+  text-align: right; /* Align the labels to the right */
+  display: flex;
+  align-items: center;
+  /* border-bottom: solid 2px #989898; */
+  border-collapse: collapse;
+  align-items: flex-start;
+  justify-content: left;
+  /* margin-left: -200px;  */
+  width: 150px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #989898;
+}
+
+.info-value {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  /* border-bottom: solid 2px #999999; */
+}
+
+.header {
+  display: flex;
+}
+
+.password-update-form {
+  max-width: 400px;
+  width: 70%;
+  margin: 0 auto;
+  border-radius: 8px;
+  float: left;
+  flex-direction: column;
+  padding-right: 800px;
+  justify-content: center;
+  align-items: center;
+}
+
+.password-update-form form {
+  width: 100%;
+  max-width: 400px;
+}
+
+.password-update-form label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.password-update-form2 input {
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 2px solid #acacac;
+  background: transparent;
+  border-radius: 4px;
+  flex-direction: column;
+  float: left;
+  margin: 10px 0;
+}
+
+.password-update-form2 button {
+  width: 70%;
+  padding: 10px;
+  background-color: #009172;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+  margin-right: -203px;
+}
+
+.password-update-form2 button:hover {
+  background-color: #45a049;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+  .personal-info-grid {
+    grid-template-columns: 1fr; /* Stack label and value on top of each other */
+    text-align: left;
+  }
+
+  .info-label {
+    text-align: left; /* Align labels to the left on small screens */
+    padding-bottom: 5px; /* Add space below the label */
+  }
+}
+
+.user-profile .userSideBar .strelka1 {
+  width: 15px;
+  height: 15px;
+  justify-content: left;
+}
+.user-profile .userSideBar .strelka2 {
+  width: 15px;
+  height: 15px;
+  float: left;
+}
+
+.line-vertical {
+  height: auto;
+  width: 2px;
+  background-color: #acacac;
+  margin-top: -40px;
+  margin-bottom: -40px;
+  align-self: stretch;
+}
+
+/* updatepassword */
+
+.password-update-form {
+  max-width: 400px;
+  width: 100%;
+  margin: 0 auto;
+  /* padding: 20px; */
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+  border-radius: 8px;
+  float: left;
+  flex-direction: column;
+  padding-right: 800px;
+  justify-content: center;
+  align-items: center;
+}
+
+.password-update-form form {
+  width: 100%; /* or max-width if you want it smaller */
+  max-width: 400px;
+}
+
+.password-update-form label {
+  margin-bottom: 5px;
+  font-weight: bold;
+  /* width: 100%; */
+}
+
+.password-update-form input {
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 2px solid #acacac;
+  background: transparent;
+  border-radius: 4px;
+  flex-direction: column;
+  float: left;
+  margin: 10px 0;
+}
+
+.password-update-form button {
+  /* margin-left: auto;  */
+  width: 70%;
+  padding: 10px;
+  background-color: #009172;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+  margin-right: -203px;
+}
+
+.password-update-form button:hover {
+  background-color: #45a049;
+}
+
+.password-update-container {
+  flex-direction: column;
+  width: 100%;
+  margin-left: 150px;
+}
+
+.password-update-header {
+  text-align: left;
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 30px;
+  margin: 0;
+  margin-bottom: 20px;
+  flex-direction: column;
+  padding-right: 300px;
+}
+
+.info-box {
+  display: flex;
+  gap: 100px;
+  align-items: center;
+  width: 100%;
+  border-bottom: solid 2px #acacac;
+  padding: 12px 0;
+}
+
+.info-label {
+  font-weight: bold;
+  text-align: right;
+  display: flex;
+  align-items: center;
+  border-collapse: collapse;
+  align-items: flex-start;
+  justify-content: left;
+  width: 150px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #989898;
+}
+
+.info-value {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+.password-update-form .form-group {
+  width: 150%;
+  display: flex;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+  .personal-info-grid {
+    grid-template-columns: 1fr; /* Stack label and value on top of each other */
+    text-align: left;
+  }
+
+  .info-label {
+    text-align: left; /* Align labels to the left on small screens */
+    padding-bottom: 5px; /* Add space below the label */
+  }
+}
+
+.user-profile .userSideBar .strelka1 {
+  width: 15px;
+  height: 15px;
+  justify-content: left;
+}
+.user-profile .userSideBar .strelka2 {
+  width: 15px;
+  height: 15px;
+  float: left;
+}
+
+.line-vertical {
+  height: auto;
+  width: 2px;
+  background-color: #acacac;
+  margin-top: -40px;
+  margin-bottom: -40px;
+  align-self: stretch;
+}
+
+/* LoginForm.css */
+
+@media (max-width: 768px) {
+  .userSideBar {
+    width: 100%; /* full width */
+    margin-bottom: 10px;
+  }
+
+  .user-profile {
+    flex-direction: column; /* stack children vertically */
+  }
+
+  .info-box {
+    flex-direction: column; /* stack label and value */
+    align-items: flex-start; /* align to the start */
+    gap: 0;
+  }
+
+  .info-label {
+    text-align: left; /* align to the left */
+    margin-right: 0; /* remove right margin */
+    width: auto; /* adjust width */
+  }
+
+  .info-value {
+    padding-top: 5px; /* space between label and value */
+  }
+
+  .line-vertical {
+    display: none; /* hide vertical line on small screens */
+  }
+
+  .user-profile .text1 h4 {
+    flex-grow: 0.075;
+  }
+  .user-profile .text2 h4 {
+    flex-grow: 0.05;
+  }
+}
+
+/* Adjustments for very small screens */
+@media (max-width: 480px) {
+  .container-1 h1 {
+    font-size: 20px; /* smaller font size */
+  }
+
+  .info-label,
+  .info-value {
+    font-size: 14px; /* smaller font size */
+  }
+}
